@@ -8,14 +8,29 @@
 }
 
 .App-header {
-  background-color: #4f4eaf;
-  height: 350px;
-  padding: 20px;
-  color: white;
+  color: #fff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(hero-food-cjlv.jpg);
+  height: 505px;
+  line-height: 1.2px;
+  background-position: 50% 50%;
 }
-
+@media (max-width: 768px) {
+  .App-header {
+    height: 400px;
+    background-position: 50% 10%;
+  }
+}
+@media (max-width: 990px) {
+  .App-header {
+    height: 450px;
+  }
+}
 .App-title {
-  font-size: 2.5em;
+  font-size: 50px;
+  padding: 70px;
 }
 
 .App-intro {

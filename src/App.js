@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
+//import logo from "./logo.svg";
 import "./App.css";
 
 class App extends Component {
@@ -10,7 +10,7 @@ class App extends Component {
           {/*<img src={logo} className="App-logo" alt="logo" />*/}
           <h1 className="App-title">
             Chef Jenny <br />
-            <span>
+            <span style={{ fontSize: 36 }}>
               <i>I love making great food for great people!</i>
             </span>
           </h1>
