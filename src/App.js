@@ -9,13 +9,15 @@ class App extends Component {
         <header className="App-header">
           {/*<img src={logo} className="App-logo" alt="logo" />*/}
           <h1 className="App-title">
-            Chef Jenny <br />
+            Chef Jenny, Personal Chef <br />
             <span style={{ fontSize: 36 }}>
-              <i>I love making great food for great people!</i>
+              <i>Live your life with a little spice! </i>
             </span>
           </h1>
         </header>
-        <p className="App-intro">Personal Chef at your service.</p>
+        <p className="App-intro">
+          <i>...I love making great food for great people!</i>
+        </p>
       </div>
     );
   }
