@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import Counter from "./components/counter";
-import Weekly from "./components/weekly";
+import Weekly from "./components/Weekly";
 import registerServiceWorker from "./registerServiceWorker";
 
 ReactDOM.render(<App />, document.getElementById("root1"));
